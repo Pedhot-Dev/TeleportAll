@@ -1,0 +1,11 @@
+--- # Poggit-CI Manifest. Open the CI at https://poggit.pmmp.io/ci/Pedhot-Dev/TeleportAll
+build-by-default: true
+branches:
+- master
+projects:
+  TeleportAll:
+    path: "icon2.png"
+    libs:
+      - src: ifera-mc/ConfigUpdater/ConfigUpdater
+        version: ^2.0.0
+...
