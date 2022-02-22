@@ -19,6 +19,10 @@ class TpAllCommand extends Command
     public function execute(CommandSender $sender, string $commandLabel, array $args)
     {
         if ($this->testPermission($sender)) return;
+        if (!$sender->hasPermission("apteleportall.command")) {
+            $sender->sendMessage(TextFormat::RED . "You don't have permission to use this command!");
+            return;
+        }
         if (!$sender instanceof Player) {
             $sender->sendMessage(TextFormat::RED . "Execute this command in game!");
             return;

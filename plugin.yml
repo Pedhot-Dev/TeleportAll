@@ -3,3 +3,8 @@ api: 4.0.0
 version: 1.0.0
 author: PedhotDev
 main: pedhot\teleportall\APTeleportAll
+
+permissions:
+  apteleportall.command:
+    default: op
+    description: "Permission for use /tpall command"
