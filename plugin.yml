@@ -1,0 +1,5 @@
+name: APTeleportAll
+api: 4.0.0
+version: 1.0.0
+author: PedhotDev
+main: pedhot\teleportall\APTeleportAll

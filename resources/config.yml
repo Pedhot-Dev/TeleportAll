@@ -1,0 +1,4 @@
+config-version: 1.0
+
+message:
+  success-teleport: "Teleported all player to {PLAYER} success"
